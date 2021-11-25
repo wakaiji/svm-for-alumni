@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Alumni FASILKOM-TI</title>
+	<!-- <link href="static/css/bootstrap.css" rel='stylesheet' type='text/css' /> -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="static/js/jquery.min.js"></script>
+	<!-- Custom Theme files -->
+	<link href="static/css/style.css" rel='stylesheet' type='text/css' />
+	<!-- Custom Theme files -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+</head>
+<body style="background-color: #41B3A3;">
+    <!----- start-header---->
+	
+	<!----- //End-header---->
+    <!-- Content -->
+
+    <div class="content">
+        <div class="container">
+            <div class="row vertical-center">
+                <div class="col-md-5 bg-image">
+                    <div class="d-flex justify-content-center">
+                        <img class="img-logo" src="/static/images/3959775.jpg" alt="ALUMNI">
+                    </div>
+                </div>
+                <div class="col-md-6 bg-title">
+                    <div class="d-flex justify-content-center mb-3">
+                        <a href="{{ url_for('home') }}">
+                            <img class="logo-home" src="/static/images/logo usu.png" alt="logo usu">
+                        </a>
+                    </div>
+                    
+                    <h6 class="bg-text-nim">141402152 - RAHMAD EKO FEBRIANTO</h6>
+                    <h2>PROGRAM SKRIPSI</h2>
+                    <h4>Klasifikasi Kesesuaian Bidang Kerja Alumni Fasilkom-TI USU berdasarkan Tracer Study Menggunakan Algoritma Support Vector Machine</h4><br>
+                    <a class="btn btn-secondary" href="{{ url_for('training') }}">Training</a>
+                    <a class="btn btn-secondary" href="{{ url_for('testing') }}">Testing</a>
+                </div>                
+            </div>
+        </div>
+    </div>
+
+    <!-- End Content -->
+</body>
+</html>
